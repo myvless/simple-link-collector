@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>简单链接收集器</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        input { width: 100%; padding: 8px; }
+        button { padding: 8px 16px; background-color: #007bff; color: white; border: none; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>简单链接收集器</h1>
+    <form method="POST">
+        <input type="text" name="link" placeholder="输入链接（例如 https://example.com）" required>
+        <button type="submit">添加链接</button>
+    </form>
+    <h2>已保存的链接</h2>
+    <ul>
+        {% for link in links %}
+            <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
