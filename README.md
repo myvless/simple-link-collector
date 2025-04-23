@@ -12,9 +12,22 @@
    ```bash
    git clone https://github.com/myvless/simple-link-collector.git
    cd simple-link-collector
+   ```
+2. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. 运行应用：
+   ```bash
+   python app.py
+   ```
+4. 在浏览器打开：
+   ```bash
+   http://localhost:5000
+   ```
 
 ## 贡献
-欢迎贡献！请阅读 CONTRIBUTING.md 了解如何参与。
+欢迎贡献！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与。
 
 ## 开发计划
 - [ ] 添加链接删除功能。
@@ -24,7 +37,7 @@
 - [ ] 添加搜索链接功能。
 
 ## 许可证
-- 本项目采用 MIT 许可证，详情见 LICENSE 文件。
+本项目采用 MIT 许可证，详情见 [LICENSE](LICENSE) 文件。
 
 ## 致谢
 - 基于 Flask 构建。
