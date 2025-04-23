@@ -12,3 +12,21 @@
    ```bash
    git clone https://github.com/myvless/simple-link-collector.git
    cd simple-link-collector
+
+## 贡献
+欢迎贡献！请阅读 CONTRIBUTING.md 了解如何参与。
+
+## 开发计划
+- [ ] 添加链接删除功能。
+- [ ] 支持链接分类。
+- [ ] 添加 Docker 部署。
+- [ ] 改进界面样式。
+- [ ] 添加搜索链接功能。
+
+## 许可证
+- 本项目采用 MIT 许可证，详情见 LICENSE 文件。
+
+## 致谢
+- 基于 Flask 构建。
+- 申请 VTEXS 开源计划 提供托管支持。
+
