@@ -17,8 +17,10 @@ def save_link(link):
 def index():
     if request.method == 'POST':
         link = request.form['link']
-        if link:
+        # 添加链接格式验证：必须以 http:// 或 https:// 开头
+        if link and (link.startswith('http://') or link.startswith('https://')):
             save_link(link)
+        # 可选：如果格式错误，可以记录或忽略（当前仅忽略）
     links = read_links()
     return render_template('index.html', links=links)
 
