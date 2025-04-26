@@ -44,4 +44,4 @@
 - 申请 VTEXS 开源计划 提供托管支持。
 
 ## 测试记录
-- 2025-04-26：测试链接格式验证，`example.com` 未保存，`https://github.com` 保存成功（附截图：[链接到截图]）。
+- 2025-04-26：测试链接格式验证，`example.com` 未保存，`https://github.com` 保存成功（附截图：[static/flask_page_20250426.png]）。
